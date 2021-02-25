@@ -1,2 +1,2 @@
-export * from './clients/CoinSwitchDynamic';
-export * from './interfaces';
+export * from './clients/CoinSwitchDynamic'
+export * from './interfaces'
