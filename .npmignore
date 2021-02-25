@@ -1,0 +1,6 @@
+**/.*
+*.iml
+coverage/
+node_modules/
+typings/
+test/
