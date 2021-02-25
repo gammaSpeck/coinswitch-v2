@@ -5,15 +5,29 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
   "author": "Madhusoodhanan KM",
   "license": "MIT",
+  "keywords": [
+    "coinswitch",
+    "kuber",
+    "crypto",
+    "client",
+    "api",
+    "exchange",
+    "asset",
+    "cryptocurrencies",
+    "crypto currency",
+    "crypto market"
+  ],
   "scripts": {
-    "build": "rimraf ./dist && tsc",
+    "build": "rimraf ./dist && tsc -p tsconfig.prod.json",
     "test": "jest",
     "coverage": "jest --coverage",
-    "test-watch": "jest --watchAll --no-cache"
+    "test-dev": "jest --watchAll --no-cache"
   },
   "engines": {
     "node": ">=10"
@@ -25,9 +39,18 @@
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.31",
     "jest": "^26.6.3",
+    "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.5.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammaSpeck/coinswitch-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gammaSpeck/coinswitch-v2/issues"
+  },
+  "homepage": "https://github.com/gammaSpeck/coinswitch-v2#readme"
 }

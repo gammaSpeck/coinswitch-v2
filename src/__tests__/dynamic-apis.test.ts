@@ -1,5 +1,5 @@
-import { CoinSwitchDynamic } from '../src/clients/CoinSwitchDynamic'
-import { SANDBOX_ORDER_IDS } from '../src/utils'
+import { CoinSwitchDynamic } from '../clients/CoinSwitchDynamic'
+import { SANDBOX_ORDER_IDS } from '../utils'
 
 /**
  * With Sandbox mode API KEY, we return static mocked responses so that you can test
