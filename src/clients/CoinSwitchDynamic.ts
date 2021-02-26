@@ -87,7 +87,7 @@ export class CoinSwitchDynamic {
     })) as CoinPair[]
   }
 
-  /** Generate an exchange offer for for a coin pair */
+  /** Generate an exchange offer for a coin pair */
   async getExchangeRate({ depositCoin, destinationCoin, depositCoinAmount }: FPGenerateOffer) {
     if (depositCoin === destinationCoin)
       throw new Error('depositCoin and destinationCoin cannot be the same')
