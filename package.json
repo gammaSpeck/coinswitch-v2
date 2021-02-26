@@ -24,7 +24,7 @@
     "crypto market"
   ],
   "scripts": {
-    "build": "rimraf ./dist && tsc -p tsconfig.prod.json",
+    "build": "rimraf ./dist && tsc -p tsconfig.bundle.json",
     "test": "jest",
     "coverage": "jest --coverage",
     "test-dev": "jest --watchAll --no-cache"
