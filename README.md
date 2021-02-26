@@ -1,4 +1,4 @@
-# coinswitch-v2 [![GitHub license](https://img.shields.io/github/license/gammaSpeck/coinswitch-v2)](https://github.com/gammaSpeck/coinswitch-v2/blob/master/LICENSE)
+# coinswitch-v2 [![GitHub license](https://img.shields.io/github/license/gammaSpeck/coinswitch-v2)](https://github.com/gammaSpeck/coinswitch-v2/blob/master/LICENSE) ![GitHub top language](https://img.shields.io/github/languages/top/gammaSpeck/coinswitch-v2) ![David](https://img.shields.io/david/gammaSpeck/coinswitch-v2)
 
 > Browser and Node.js [Coinswitch.co](https://developer.coinswitch.co/reference) API v2 client
 
