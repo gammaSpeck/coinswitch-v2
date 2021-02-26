@@ -1,5 +1,3 @@
-import { SANDBOX_ORDER_IDS } from '../utils'
-
 export interface CoinSwitchClient {
   apiKey: string
   userIP?: string
@@ -82,7 +80,15 @@ export interface Order {
   expectedDestinationCoinAmount: number
 }
 
-type StatusTypes = keyof typeof SANDBOX_ORDER_IDS
+type StatusTypes =
+  | 'no_deposit'
+  | 'confirming'
+  | 'exchanging'
+  | 'sending'
+  | 'complete'
+  | 'failed'
+  | 'refunded'
+  | 'timeout'
 
 export interface OrderStatus {
   orderId: string

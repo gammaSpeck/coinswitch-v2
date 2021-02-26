@@ -1,5 +1,5 @@
 import { CoinSwitchDynamic } from '../CoinSwitchDynamic'
-import { SANDBOX_ORDER_IDS } from '../../utils'
+import { SANDBOX_ORDER_IDS } from './__mocks__/utils'
 
 /**
  * With Sandbox mode API KEY, we return static mocked responses so that you can test
