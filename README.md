@@ -71,6 +71,12 @@ For more examples look into the `__tests__` folder on GitHub.
 
     npm test
 
+## Coverage
+
+The snippet of test coverage of all the Dynamic APIs is seen below:
+
+<img src="assets/test-coverage.png" alt="Test coverage report">
+
 # License
 
 MIT
